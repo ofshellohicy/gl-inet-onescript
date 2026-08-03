@@ -147,6 +147,12 @@ https://www.youtube.com/watch?v=YlhIdizH0hM
 
 ![luci](https://github.com/user-attachments/assets/50fb4566-dbeb-4b32-bec0-9b88e2af098c)
 
+## GL-MT3600BE OpenClash
+
+- [安装与恢复文档](docs/install-openclash-gl-mt3600be.md)
+- [可 dry run 的安装脚本](scripts/install-openclash-gl-mt3600be.sh)
+- [项目知识库](wiki/index.md)
+
 
 # 新增❤️ 使用glibox 内网版的 脚本服务器
 > 支持x86-64 和 arm64 两种平台来搭建，glibox 是基于dufs 制作的内网文件服务器 用于托管本项目的脚本。免得因为网络问题下载失败。看到许多人 不断复用我的脚本 干脆搭建一个内网版本 。
