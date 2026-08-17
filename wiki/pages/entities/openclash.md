@@ -11,6 +11,7 @@ OpenClash 在本项目中以 OpenWrt 标准软件包和 LuCI 应用方式安装�
 - LuCI 入口：`http://192.168.8.1:8080/cgi-bin/luci/admin/services/openclash`。
 - init 服务位于 `/etc/init.d/openclash`，实机已创建 `S99openclash`链接。
 - 无订阅或配置时保持停用是预期状态。
+- `ex_keyword` 只在订阅转换链路中形成排除参数；`sub_convert=0` 的直接下载不能仅靠该字段保证节点过滤。
 
 ## 关联
 
@@ -20,3 +21,4 @@ OpenClash 在本项目中以 OpenWrt 标准软件包和 LuCI 应用方式安装�
 - 来源：[GL-MT3600BE OpenClash 安装材料](../sources/gl-mt3600be-openclash-install.md)
 - 来源：[OpenClash 双配置导入实机记录](../sources/openclash-dual-config-operation-2026-08-18.md)
 - 方法：[OpenClash 双配置与 sing-box 转换](../analyses/openclash-dual-config-and-sing-box-conversion.md)
+- 方法：[OpenClash 订阅地区节点排除](../analyses/openclash-subscription-region-exclusion.md)

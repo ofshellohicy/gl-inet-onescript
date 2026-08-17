@@ -55,6 +55,8 @@ OpenClash 配置管理中的 `SwiTch` 保存新的 `config_path`；`Apply Settin
 
 这是一套面向美国家庭宽带出口的默认策略。其他用途应通过 `--proxy-domain` 增补域名，或在导入后复制配置再审查规则，不应直接修改仍在运行的原配置。
 
+保留的原 `config.yaml` 是另一套静态多节点配置。其地区排除状态见 [OpenClash 订阅地区节点排除](openclash-subscription-region-exclusion.md)；不要把“当前无四地区节点”误认为更新链路已有持续过滤保证。
+
 ## 相关页
 
 - [完整操作文档](../../../docs/openclash-dual-config-mt3000-mt3600.md)
