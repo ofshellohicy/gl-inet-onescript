@@ -57,6 +57,8 @@ http://192.168.8.1:8080/cgi-bin/luci/admin/services/openclash
 
 首次安装后显示“未运行”是正常的。先在“配置订阅”中添加订阅，或在“配置管理”中上传配置，然后在 OpenClash 页面启用服务。
 
+需要保留原配置并从 sing-box 导入第二套 VLESS Reality 配置时，使用[MT3000/MT3600BE 双配置导入文档](openclash-dual-config-mt3000-mt3600.md)和仓库脚本，不要直接覆盖 `config.yaml`。
+
 ## 重启与固件升级
 
 - 普通重启：OpenClash 软件包、LuCI 页面、配置和 Mihomo 核心会保留。

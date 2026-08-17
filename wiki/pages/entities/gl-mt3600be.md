@@ -18,3 +18,6 @@ GL-MT3600BE 是本项目已完成 OpenClash 实机验证的 GL.iNet 路由器。
 - 软件：[OpenClash](openclash.md)
 - 来源：[GL-MT3600BE OpenClash 安装材料](../sources/gl-mt3600be-openclash-install.md)
 - 方法：[OpenClash 安装与固件升级恢复](../analyses/openclash-install-and-recovery.md)
+- 后续配置：[OpenClash 双配置与 sing-box 转换方法](../analyses/openclash-dual-config-and-sing-box-conversion.md)
+
+双配置方法已在 GL-MT3000 实机验证，但尚未在本设备完成复测。复用前必须重新检查 `mediatek/mt7987`、`aarch64_cortex-a53`、OpenClash 和 Mihomo 状态。

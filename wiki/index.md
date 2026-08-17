@@ -13,9 +13,11 @@
 ### 来源摘要
 
 - [GL-MT3600BE OpenClash 安装材料](pages/sources/gl-mt3600be-openclash-install.md)
+- [OpenClash 双配置导入实机记录](pages/sources/openclash-dual-config-operation-2026-08-18.md)
 
 ### 实体
 
+- [GL-MT3000](pages/entities/gl-mt3000.md)
 - [GL-MT3600BE](pages/entities/gl-mt3600be.md)
 - [OpenClash](pages/entities/openclash.md)
 
@@ -26,3 +28,4 @@
 ### 分析与操作方法
 
 - [OpenClash 安装与固件升级恢复方法](pages/analyses/openclash-install-and-recovery.md)
+- [OpenClash 双配置与 sing-box 转换方法](pages/analyses/openclash-dual-config-and-sing-box-conversion.md)

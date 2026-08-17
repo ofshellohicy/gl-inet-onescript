@@ -151,6 +151,8 @@ https://www.youtube.com/watch?v=YlhIdizH0hM
 
 - [安装与恢复文档](docs/install-openclash-gl-mt3600be.md)
 - [可 dry run 的安装脚本](scripts/install-openclash-gl-mt3600be.sh)
+- [MT3000/MT3600BE 双配置导入文档](docs/openclash-dual-config-mt3000-mt3600.md)
+- [sing-box VLESS Reality 转换与无扰导入脚本](scripts/import-openclash-dual-config.py)
 - [项目知识库](wiki/index.md)
 
 
