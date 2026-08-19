@@ -1,5 +1,29 @@
 # GL.iNet OneScript 项目知识库变更日志
 
+## [2026-08-19] apply | Windows NCSI 精确直连
+
+- 在单独授权后，对 GL-MT3000 应用 Windows 新旧 NCSI 四条精确 `DIRECT`，Linux 保持动态识别且未新增域名。
+- 写入前备份 OpenClash UCI 与两份自定义文件；只重启 OpenClash 一次。
+- 验证四条规则进入持久化自定义层和生成配置，Microsoft 后缀继续排除 Fake-IP，核心单进程运行且活动路径未改变。
+- IPv4 客户端获得真实 DNS，新旧 Microsoft 探测页分别返回预期正文；IPv6 链路和 Windows 酒店现场仍待验收。
+- 只读确认 MT3000 未发布 RFC 8910 DHCP/RA CAPPORT 选项，也未提供 RFC 8908 API；当前实现是传统探测兼容层，不是 CAPPORT 服务端。
+
+## [2026-08-19] review | Captive Portal 跨平台补充考证
+
+- 按 iOS/macOS、Windows 和 Linux 分开核对系统连通性探测机制，不再把 Apple 地址写成通用入口。
+- 只读确认 MT3000 已对 Microsoft、Debian 和 Firefox 探测主机排除 Fake-IP，但直连规则仍只有 Apple 主机。
+- 给出 Windows 精确直连 dry run；本次未修改在线路由器，Windows 与 Linux 尚未现场验收。
+- 记录 Linux NetworkManager URI 由发行版或管理员配置，必须先读取 `ConnectivityCheckUri`，不能维护虚假的全 Linux 静态列表。
+- 补充 Public Hotspot Login Mode 的通用兜底及 DNS/原生 HTTP 暴露边界。
+
+## [2026-08-19] ingest | OpenClash 酒店 Captive Portal 实测
+
+- 入库 GL-MT3000、OpenClash `0.47.088`、Fake-IP 模式的脱敏配置与验证记录。
+- 记录 `captive.apple.com` 同时加入 Fake-IP 排除和置顶 `DIRECT` 的最小持久化方法。
+- 本地验证生成规则顺序、真实 DNS、`HTTP 200 / Success`、单核心运行和活动配置不变。
+- 用户随后在真实酒店 Wi-Fi 环境测试并反馈“很好用”，形成现场验收证据。
+- 明确该结论不覆盖酒店后续动态域名、专用 App、客户端证书或所有 Captive Portal 实现。
+
 ## [2026-08-18] audit | 原配置地区节点排除
 
 - 脱敏解析原 `config.yaml` 的节点、代理组、协议、旗帜地区和规则策略统计。

@@ -147,13 +147,14 @@ https://www.youtube.com/watch?v=YlhIdizH0hM
 
 ![luci](https://github.com/user-attachments/assets/50fb4566-dbeb-4b32-bec0-9b88e2af098c)
 
-## GL-MT3600BE OpenClash
+## GL-MT3000 / GL-MT3600BE OpenClash
 
 - [安装与恢复文档](docs/install-openclash-gl-mt3600be.md)
 - [可 dry run 的安装脚本](scripts/install-openclash-gl-mt3600be.sh)
 - [MT3000/MT3600BE 双配置导入文档](docs/openclash-dual-config-mt3000-mt3600.md)
 - [sing-box VLESS Reality 转换与无扰导入脚本](scripts/import-openclash-dual-config.py)
 - [订阅节点地区排除检查](docs/openclash-region-node-exclusion.md)
+- [MT3000 跨平台酒店 Captive Portal 直连、dry run 与实测](docs/openclash-captive-portal-mt3000.md)
 - [项目知识库](wiki/index.md)
 
 
